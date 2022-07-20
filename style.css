@@ -1,9 +1,11 @@
+/* universal selector */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+/* header start here  */
 .container {
   display: flex;
   justify-content: center;
@@ -12,7 +14,6 @@
 }
 .main {
   display: flex;
-
   background-color: rgb(44, 43, 43);
   width: 70%;
   height: 70vh;
@@ -47,8 +48,32 @@
   padding: 0px 50px;
 }
 
-/* footer section start here  */
+/* main body start here */
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main-container {
+  display: flex;
+  width: 70%;
+  gap: 10px;
+  
+}
+.left-side {
+  background-color: rgb(46, 45, 45);
+  height: 100px;
+  width: 30%;
+  border-radius: 20px;
+}
+.right-side {
+  background-color: blue;
+  height: 100px;
+  width: 70%;
+}
 
+/* footer section start here  */
 footer {
   height: 350px;
   width: 100%;
