@@ -104,7 +104,7 @@
 .card {
   height: 320px;
   border: 1px solid gray;
-  border-radius: 9px;
+  border-radius: 12px;
 }
 .card > img {
   width: 100%;
@@ -124,6 +124,16 @@
   padding: 10px 0px;
 }
 
+.btn {
+  visibility: hidden;
+}
+.btn > button {
+  background-color: crimson;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
 /* footer section start here  */
 footer {
   height: 350px;
@@ -143,4 +153,57 @@ footer > hr {
   display: flex;
   justify-content: center;
   gap: 35px;
+}
+
+/* media queries start here */
+
+/* for tablet devices */
+@media only screen and (max-width: 1142px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  .right-side {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    height: 320px;
+    border: 1px solid gray;
+    border-radius: 14px;
+  }
+  .last-card {
+    display: none;
+  }
+  .btn {
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
 }
