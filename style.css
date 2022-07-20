@@ -58,18 +58,42 @@
 .main-container {
   display: flex;
   width: 70%;
-  gap: 10px;
-  
+  gap: 20px;
 }
 .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(46, 45, 45);
-  height: 100px;
+  height: 300px;
   width: 30%;
   border-radius: 20px;
+  padding: 20px;
+  font-weight: 600;
+}
+.left-side > .match {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+}
+.left-side > .group {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+}
+.left-side > .blog {
+  background-color: rgb(255, 37, 37);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
 }
 .right-side {
   background-color: blue;
-  height: 100px;
+  height: 100%;
   width: 70%;
 }
 
