@@ -215,15 +215,16 @@ footer > hr {
     display: flex;
     flex-direction: column;
     background-color: rgb(44, 43, 43);
+    align-items: center;
+    height: 80vh;
   }
   .header-txt {
-    height: 100;
     width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 40px;
+    padding: 40px 40px;
   }
   .header-txt h3 {
     font-size: 25px;
@@ -240,8 +241,16 @@ footer > hr {
   }
 
   .header-img {
-    height: 50px;
-    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    margin-bottom: -5px;
+    margin-left: -230px;
+  }
+  .header-img > img {
+    height: 150px;
+    width: 150px;
   }
   .left-side {
     display: flex;
