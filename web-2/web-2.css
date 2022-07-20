@@ -75,15 +75,14 @@
   font-weight: 600;
 }
 .left-side > .match {
-  background-color: white;
+  background-color: rgb(255, 37, 37);
   padding: 10px;
-  color: black;
   border-radius: 5px;
   width: 70%;
 }
 .left-side > .match > a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .left-side > .group {
   background-color: white;
@@ -92,17 +91,16 @@
   width: 70%;
 }
 .left-side > .blog {
-  background-color: rgb(255, 37, 37);
-  color: white;
+  background-color: white;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   width: 70%;
 }
 .left-side > .blog > a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
-
 .right-side {
   height: 100%;
   width: 70%;
