@@ -4,3 +4,21 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  background-color: rgb(102, 101, 101);
+  width: 70%;
+  height: 60vh;
+}
+.header-txt {
+  width: 50%;
+}
+.header-img {
+  width: 50%;
+}
