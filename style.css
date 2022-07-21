@@ -51,7 +51,6 @@
   width: 300px;
   height: 80%;
   object-fit: cover;
-  
 }
 
 /* main body start here */
@@ -193,7 +192,6 @@ footer > hr {
     width: 250px;
     height: 75%;
     object-fit: cover;
-    
   }
   .main-container {
     display: flex;
